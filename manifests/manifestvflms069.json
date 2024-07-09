@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://frostll-at-slu.github.io/rbs2024frost/manifests/manifestvflms069.json",
+  "@type" : "sc:Manifest",
+  "label" : "SLU VFL MS 069",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://271adad2-0db8-4647-a650-264ea35c4241",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7fcdb96d-e14a-4df2-8230-e3ee1617d025",
+      "@type" : "sc:Canvas",
+      "label" : "SLU VFL MS 069 recto",
+      "height" : 3464,
+      "width" : 3301,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://695979f6-12ee-42ad-8eca-849351780939",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://frostll-at-slu.github.io/rbs2024frost/images/SLU_VFL_MS_069_fol_a_recto/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://frostll-at-slu.github.io/rbs2024frost/images/SLU_VFL_MS_069_fol_a_recto",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3464,
+          "width" : 3301
+        },
+        "on" : "http://7fcdb96d-e14a-4df2-8230-e3ee1617d025"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://785e7f7f-9dfc-4639-893e-24bbff2648cc",
+      "@type" : "sc:Canvas",
+      "label" : "SLU VFL MS 069 verso",
+      "height" : 3505,
+      "width" : 3188,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b0bb86d7-25ae-42da-b6d6-d7dbf9416f11",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://frostll-at-slu.github.io/rbs2024frost/images/SLU_VFL_MS_069_fol_a_verso/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://frostll-at-slu.github.io/rbs2024frost/images/SLU_VFL_MS_069_fol_a_verso",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3505,
+          "width" : 3188
+        },
+        "on" : "http://785e7f7f-9dfc-4639-893e-24bbff2648cc"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
