@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 104,
+    "height" : 109
+  }, {
+    "width" : 207,
+    "height" : 217
+  }, {
+    "width" : 413,
+    "height" : 433
+  }, {
+    "width" : 826,
+    "height" : 866
+  }, {
+    "width" : 1651,
+    "height" : 1732
+  }, {
+    "width" : 3301,
+    "height" : 3464
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3301,
+  "@id" : "https://frostll-at-slu.github.io/rbs2024frost/images/SLU_VFL_MS_069_fol_a_recto",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3464
+}
